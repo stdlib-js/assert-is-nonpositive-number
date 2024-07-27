@@ -42,13 +42,13 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import isNonPositiveNumber from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-nonpositive-number@esm/index.mjs';
+import isNonPositiveNumber from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-nonpositive-number@v0.2.2-esm/index.mjs';
 ```
 
 You can also import the following named exports from the package:
 
 ```javascript
-import { isObject, isPrimitive } from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-nonpositive-number@esm/index.mjs';
+import { isObject, isPrimitive } from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-nonpositive-number@v0.2.2-esm/index.mjs';
 ```
 
 #### isNonPositiveNumber( value )
@@ -127,7 +127,7 @@ bool = isNonPositiveNumber.isObject( new Number( -3.0 ) );
 <script type="module">
 
 import Number from 'https://cdn.jsdelivr.net/gh/stdlib-js/number-ctor@esm/index.mjs';
-import isNonPositiveNumber from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-nonpositive-number@esm/index.mjs';
+import isNonPositiveNumber from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-nonpositive-number@v0.2.2-esm/index.mjs';
 
 var bool = isNonPositiveNumber( -5.0 );
 // returns true
