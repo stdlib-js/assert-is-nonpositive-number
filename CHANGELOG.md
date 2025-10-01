@@ -4,7 +4,19 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-05-19)
+## Unreleased (2025-10-01)
+
+<section class="issues">
+
+### Closed Issues
+
+This release closes the following issue:
+
+[#8169](https://github.com/stdlib-js/stdlib/issues/8169)
+
+</section>
+
+<!-- /.issues -->
 
 <section class="commits">
 
@@ -12,6 +24,9 @@
 
 <details>
 
+-   [`78351b3`](https://github.com/stdlib-js/stdlib/commit/78351b361d25d1abd7741df7a2c68f42968a3247) - **chore:** fix JavaScript lint errors [(#8176)](https://github.com/stdlib-js/stdlib/pull/8176) _(by Payal Goswami, Philipp Burckhardt)_
+-   [`11581aa`](https://github.com/stdlib-js/stdlib/commit/11581aaca8c3cb824cbb92c0c0f80e76890bdb20) - **test:** use standardized assertion messages and fix lint errors _(by Philipp Burckhardt)_
+-   [`f9651e6`](https://github.com/stdlib-js/stdlib/commit/f9651e6411b4ebd3c95dcc6b46c02e6d5be009fa) - **test:** use .strictEqual() instead of .equal() and fix lint errors _(by Philipp Burckhardt)_
 -   [`31fd427`](https://github.com/stdlib-js/stdlib/commit/31fd42744ec5d7073041f97c6f72350b8005c0fc) - **style:** remove unwanted empty lines _(by Philipp Burckhardt)_
 
 </details>
@@ -24,8 +39,9 @@
 
 ### Contributors
 
-A total of 1 person contributed to this release. Thank you to this contributor:
+A total of 2 people contributed to this release. Thank you to the following contributors:
 
+-   Payal Goswami
 -   Philipp Burckhardt
 
 </section>
